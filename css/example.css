@@ -1,0 +1,66 @@
+
+body {
+	background: #F8F8F8;
+}
+header {
+	width: 100%;
+	height:40px;
+	background-color: #2C2C2C;
+    background-image: -moz-linear-gradient(center top , #333333, #222222);
+    background-repeat: repeat-x;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 -1px 0 rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 30px;
+}
+#main-content {
+    width: 100%;
+}
+footer {
+	width: 100%;
+	height:7px;
+	margin-top: 60px;
+	background: -moz-linear-gradient(left center , #94E5EE 0%, #2CCAC1 23%, #FFD1A9 48%, #FBB5AE 75%, #D8A3BC 100%) repeat scroll 0 0 transparent;
+}
+.wrapper {
+	width: 1150px;
+	height:100%;
+	margin: 0 auto;
+	/*background: rgba(0, 0, 0, 0.2);*/
+}
+/*ESTILOS IFRAME*/
+#iframe {
+	background:none;
+}
+#iframe h2 {
+	color:#fff;
+	font-size:18px;
+	width:100%;
+	text-align:right;
+	border-bottom: 1px solid #fff;
+	background:none;
+	padding-bottom:7px;
+}
+#iframe em {
+	color:#fff;
+	margin:12px 0;
+	display:block;
+}
+#iframe em span {
+	color:#A6CE39;
+}
+
+.activePage img {
+	z-index: -9!important;
+}
+#qLoverlay {
+	z-index:0!important;
+}
+#loader-mask {
+	position: absolute;
+	width:100%;
+	height:100%;
+	background-color: #3B3A39;
+	z-index:1;
+}
+.ua-ie-7 #loader-mask {
+	z-index: 9999;
+}

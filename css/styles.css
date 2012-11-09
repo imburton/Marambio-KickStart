@@ -1,0 +1,39 @@
+/* LAYOUT*/
+/*@font-face {
+    font-family: ;
+    src: url(../fonts/.otf);
+    font-weight:normal;
+}*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+h1 {
+	color: #fff;
+	line-height: 2.2em;
+	font-size: 1.1em;
+	margin: 0 0 20px;
+}
+h2 {
+	font-size: 1.4em;
+	clear: both;
+	margin: 40px 0 10px;
+}
+p {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+/*MEDIA QUERIES max content area = 1024 (netbook - ipad horizontal)*/
+@media (max-width: 1270px) {
+
+}
+/*MEDIA QUERIES max content area = 768 (ipad vertical)*/
+@media (max-width: 980px) {
+
+}
+/*MEDIA QUERIES max content area = 480 (Celular horizontal)*/
+@media (max-width: 760px) {
+
+}
