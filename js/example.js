@@ -2,13 +2,12 @@ $(document).ready(function(){
     //FLEXSLIDER http://www.woothemes.com/flexslider/
     $('#slider-full').flexslider({
       animation: "slide",
-      directionNav: false,
       controlNav: true,
       slideshowSpeed: 5000
     });
     $('#carousel').flexslider({
       animation: "slide",
-      animationLoop: false,
+      animationLoop: true,
       slideshow: false, 
       itemWidth: 210,
       asNavFor: '#slider'
