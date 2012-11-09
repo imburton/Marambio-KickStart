@@ -53,7 +53,7 @@ $(document).ready(function(){
           dataType: "json",
           success: function(response){
             if(response.ok){  
-          $('form .col, #submit, .textarea, .required').hide();
+          $('.validationWrapper, #submit, .textarea, .required-mark').hide();
           $('#success').fadeIn(300);
             } else {                  
             $('#error').show();
@@ -69,7 +69,7 @@ $(document).ready(function(){
         if($warning.length > 0){
           $warning.remove();
         }
-        $(element).closest('.validationWrapper').append('<div class="warning"><div><p>' + error.html() + '</p></div></div>').addClass('error');
+        $(element).closest('.validationWrapper').append('<div class="warning">' + error.html() + '<span></span></div>').addClass('error');
       },
       //removes error when field is unhighlighted
       unhighlight: function(element, errorClass, validClass) {
